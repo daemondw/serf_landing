@@ -35,3 +35,6 @@ Temporary Items
 *.fig
 node_modules
 package-lock.json
+app/fonts
+app/scss
+app/images
