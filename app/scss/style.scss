@@ -191,9 +191,29 @@
 
 .header__arrows {
   position: absolute;
-  bottom: 41px;
+  bottom: 30px;
   left: 209px;
   z-index: 3;
 }
+
+.line-animation {
+  stroke-dashoffset: 600;
+  stroke-dasharray: 600;
+  animation: animdash 3s infinite 6s;
+}
+
+@keyframes animdash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+
+
+
+
 
 @import "media";
